@@ -6,7 +6,7 @@ body {
 --------------- Começo Cabeçalho ------------
 */
 #cabecalho{ 
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
     width: 95%;
     height: 270px;
     margin: auto;
@@ -18,20 +18,22 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 65%;
-    margin-top: 5.75%;
+    margin-left: 62%;
+    margin-top: 6%;
 }
 
 #cabecalho>ul a {
     width: 200px;
     height: 33px;
     display: block;                                    
-    color: #000;
+    color:rgb(129, 121, 74);
     text-decoration: none;
     text-indent: 40px;                                  
     line-height: 40px;  
     padding: 0;  
-    font-size: 13.3px;                           
+    font-size: 13.3px;  
+    position: relative; 
+    z-index: 2;                        
 }
 
 #cabecalho>a:hover {
@@ -45,16 +47,59 @@ body {
     position: absolute;
     font-size: 11.5px;
     margin-left: 63%;
-    margin-top: -17.5%;
-    border: 1px solid red;
-    padding: 10px 12px;
+    margin-top: -18%;
+    border-top: 1px solid rgb(187, 178, 108);
+    border-bottom: 1px solid rgb(187, 178, 108);
+    padding: 15px 12px;
     text-indent: 0px;
+    width: 365px;
+    color: rgb(129, 121, 74);
+    z-index: 3;  
 }
 
 #reserva a {
-    border: 1px solid red;
-    padding: 10px 30px;
-    margin-left: 45px;
+    border: 1px solid rgb(169, 159, 83);
+    padding: 10px 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 5px;
+    text-indent: 5px;
+    position: absolute;
+    margin-top: -5.45px;
+    background-color: rgb(169, 159, 83);
+    color: #fff;
+}
+
+img#img_1{
+    position: absolute;
+    margin-left: 52.5%;
+    z-index: 1;
+    width: 42%;
+    height: 270px;
+}
+
+img#img_2{
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 6.4%;
+    z-index: 2;
+    width: 226px;
+    height: 164px;
+}
+
+img#img_3{
+    position: absolute;
+    width: 798px;
+    height: 270px;
+}
+
+img#img_4{
+    position: absolute;
+    width: 151px;
+    height: 66px;
+    margin-left: 15px;
+    margin-top: 17px;
 }
 
 /*
