@@ -1,5 +1,6 @@
 body {
     font-family: 'Trebuchet MS', Helvetica , Arial, sans-serif;
+    background: url(../imagens/bg.png);
 }
 
 /*
@@ -23,22 +24,27 @@ body {
 }
 
 #cabecalho>ul a {
-    width: 200px;
+    width: 130px;
     height: 33px;
     display: block;                                    
     color:rgb(129, 121, 74);
     text-decoration: none;
-    text-indent: 40px;                                  
+    text-indent: 20px;                                  
     line-height: 40px;  
     padding: 0;  
     font-size: 13.3px;  
     position: relative; 
-    z-index: 2;                        
+    z-index: 2;  
+    background: rgb(223, 211, 146);   
+    margin-left: 20px;        
 }
 
-#cabecalho>a:hover {
-    background-position: right bottom;                
+#cabecalho > ul > li a:hover {
+    background: rgb(129, 121, 74);                
     color: whitesmoke;
+    width: 130px;
+    height: 33px;
+    display: block; 
 }
 
 /* ---- Fim Navegação Vertical ----- */
@@ -70,6 +76,7 @@ body {
     background-color: rgb(169, 159, 83);
     color: #fff;
 }
+
 
 img#img_1{
     position: absolute;
@@ -111,20 +118,24 @@ img#img_4{
 */
 
 #body {
-    border: 1px solid red;
+    border: 1px solid rgb(239, 233, 203);
     width: 95%;
     height: 30em;
     margin: auto;
-    margin-top: 13px;
+    background:rgb(239, 233, 203) url(../imagens/bg-area-principal.png) repeat-x;
 }
 
 /* ------ Conteudo esquerdo ----- */
 
 #conteudo {
-    border: 1px solid red;
+    border: 1px solid rgb(239, 233, 203);
     width: 50%;
     height: 90%;
     margin: 20px;
+}
+
+#conteudo h3 {
+    color: rgb(132, 122, 65);
 }
 
 /* ----------------------------*/
@@ -132,17 +143,17 @@ img#img_4{
 /* ------ Conteudo direito ----- */
 
 #descrição{
-    border: 1px solid red;
     width: 45%;
-    height: 83%;
+    height: 77.5%;
     margin: 20px;
     position: absolute;
     margin-left: 38.45em;
     margin-top: -29.6em;
+    background: rgb(219, 216, 182) url(../imagens/bg-area-lateral.png) repeat-x;
 }
 
 #conteudo_2 {
-    border: 1px solid red;
+    border: 1px solid rgb(219, 216, 182);
     width: 92%;
     height: 85%;
     margin: 20px;
@@ -151,11 +162,23 @@ img#img_4{
 
 #spot {
     font-size: 13px;
-    margin-left: 130px;
+    margin-left: 140px;
 }
 
-#spot>hr {
+#spot hr {
     width: 120%;
     margin-left: -110px;
     margin-top: 35px;
+}
+
+#spot h3 {
+    color: rgb(132, 122, 65);
+}
+
+img#img_5{
+    position: absolute;
+    width: 128px;
+    height: 82.4px;
+    margin-left: -137px;
+    margin-top: -2px;
 }
