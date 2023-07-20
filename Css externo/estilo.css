@@ -24,7 +24,7 @@ body {
 }
 
 #cabecalho>ul a {
-    width: 130px;
+    width: 20%;
     height: 33px;
     display: block;                                    
     color:rgb(129, 121, 74);
@@ -36,7 +36,7 @@ body {
     position: relative; 
     z-index: 2;  
     background: rgb(223, 211, 146);   
-    margin-left: 20px;        
+    margin-left: 2%;  
 }
 
 #cabecalho > ul > li a:hover {
@@ -53,12 +53,12 @@ body {
     position: absolute;
     font-size: 11.5px;
     margin-left: 63%;
-    margin-top: -18%;
+    margin-top: -225px;
     border-top: 1px solid rgb(187, 178, 108);
     border-bottom: 1px solid rgb(187, 178, 108);
     padding: 15px 12px;
     text-indent: 0px;
-    width: 365px;
+    width: 28%;
     color: rgb(129, 121, 74);
     z-index: 3;  
 }
@@ -66,13 +66,13 @@ body {
 #reserva a {
     border: 1px solid rgb(169, 159, 83);
     padding: 10px 20px;
-    margin-left: 30px;
+    margin-left: 8%;
     text-decoration: none;
     font-size: 15px;
     line-height: 5px;
     text-indent: 5px;
     position: absolute;
-    margin-top: -5.45px;
+    margin-top: -1.8%;
     background-color: rgb(169, 159, 83);
     color: #fff;
 }
@@ -92,7 +92,7 @@ img#img_2{
     margin-top: 6.4%;
     z-index: 2;
     width: 226px;
-    height: 164px;
+    height: 27.5%;
 }
 
 img#img_3{
@@ -131,7 +131,7 @@ img#img_4{
     border: 1px solid rgb(239, 233, 203);
     width: 50%;
     height: 90%;
-    margin: 20px;
+    margin: 1.65%;
 }
 
 #conteudo h3 {
@@ -145,9 +145,9 @@ img#img_4{
 #descrição{
     width: 45%;
     height: 77.5%;
-    margin: 20px;
+    margin: 1.65%;
     position: absolute;
-    margin-left: 38.45em;
+    margin-left: 49.5%;
     margin-top: -29.6em;
     background: rgb(219, 216, 182) url(../imagens/bg-area-lateral.png) repeat-x;
 }
@@ -155,8 +155,8 @@ img#img_4{
 #conteudo_2 {
     border: 1px solid rgb(219, 216, 182);
     width: 92%;
-    height: 85%;
-    margin: 20px;
+    height: 220px;
+    margin: 1.65%;
     margin-top: 45px;
 }
 
@@ -177,7 +177,7 @@ img#img_4{
 
 img#img_5{
     position: absolute;
-    width: 128px;
+    width: 22.5%;
     height: 82.4px;
     margin-left: -137px;
     margin-top: -2px;
